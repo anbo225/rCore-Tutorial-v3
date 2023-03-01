@@ -78,7 +78,7 @@ pub unsafe fn mideleg_write(mideleg: usize) {
 }
 
 pub enum SIE {
-    SEIE = 1 << 9, // external
+    SEIE = 1 << 9,  // external
     STIE = 1 << 5, // timer
     SSIE = 1 << 1, // software
 }
